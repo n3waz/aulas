@@ -1,0 +1,14 @@
+vascular = int(input("A planta tem vascularização: 0 ou 1:  "))
+sementes = int(input("A planta possui sementes: 0 ou 1:  "))
+flores = int(input("A planta gera flores: 0 ou 1:  "))
+
+if vascular == 0 and sementes == 0 and flores == 0:
+    print("Bryophyta")
+elif vascular == 1 and sementes== 0 and flores == 0:
+    print("Pteridophyta")
+elif vascular == 1 and sementes == 1 and flores == 0:
+    print("Gymnospermae")
+elif vascular == 1 and sementes == 1 and flores == 1:
+    print("Angiospermae")
+else:
+    print("Erro de dados, recomeçe")
