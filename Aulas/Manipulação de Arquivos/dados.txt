@@ -1,0 +1,3 @@
+Quantidade de cadastros: 2
+Nome: luan kato;Idade: 18
+Nome: joao marcelo;Idade: 18
